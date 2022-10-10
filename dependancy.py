@@ -17,5 +17,3 @@ def add():
 
     with open('passwords.txt', 'a') as po:
         po.write(user_name+"|"+type_acc+"|"+crypton.encrypt(password)+"\n")
-
-
